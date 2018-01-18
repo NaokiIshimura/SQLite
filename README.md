@@ -28,3 +28,8 @@ DROP INDEX インデックス名;
 .indices
 ```
 
+# テーブルスキーマ(構造)の確認
+
+```
+select * from sqlite_master;
+```
